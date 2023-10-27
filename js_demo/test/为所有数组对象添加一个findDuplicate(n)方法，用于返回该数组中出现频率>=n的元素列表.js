@@ -15,7 +15,6 @@ Array.prototype.findDuplicate = function (n) {
     })
 
     return Object.keys(temp).filter(item => temp[item] >= n)
-
 }
 
 
