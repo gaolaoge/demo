@@ -1,0 +1,12 @@
+{
+  "name": "gaoge",
+  "age": 20,
+  "sex": "male",
+  "hobbies": ["coding", "reading", "swimming"],
+  "address": {
+    "street": "123456",
+    "city": "shenzhen",
+    "country": "china"
+  },
+  "friends": []
+}
