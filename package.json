@@ -1,5 +1,9 @@
 {
 	"dependencies": {
+		"@gaoges/lint-config": "^1.0.1",
 		"jest": "^29.7.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.1.0"
 	}
 }
