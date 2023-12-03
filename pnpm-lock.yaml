@@ -5,9 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@gaoges/lint-config':
+    specifier: ^1.0.1
+    version: 1.0.1
   jest:
     specifier: ^29.7.0
     version: 29.7.0
+
+devDependencies:
+  prettier:
+    specifier: ^3.1.0
+    version: 3.1.0
 
 packages:
 
@@ -346,6 +354,10 @@ packages:
 
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+    dev: false
+
+  /@gaoges/lint-config@1.0.1:
+    resolution: {integrity: sha512-NTOC+JL91BN7Uw2JXwVPmSDrl8a5sM0KTgXx6qm+3CvhK5JCE6d5Udki2Xuo6X8uTsM0Z4VpjG6GMPD2+kf1FQ==}
     dev: false
 
   /@istanbuljs/load-nyc-config@1.1.0:
@@ -1932,6 +1944,12 @@ packages:
     dependencies:
       find-up: 4.1.0
     dev: false
+
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /pretty-format@29.7.0:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
