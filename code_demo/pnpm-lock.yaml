@@ -8,9 +8,12 @@ dependencies:
   ts-node:
     specifier: ^10.9.1
     version: 10.9.1(@types/node@20.10.1)(typescript@5.3.2)
-  typescipt:
-    specifier: ^1.0.0
-    version: 1.0.0
+  tsc:
+    specifier: ^2.0.4
+    version: 2.0.4
+  typescript:
+    specifier: ^5.3.2
+    version: 5.3.2
 
 packages:
 
@@ -118,8 +121,9 @@ packages:
       yn: 3.1.1
     dev: false
 
-  /typescipt@1.0.0:
-    resolution: {integrity: sha512-Rgg7DtWh0c0oJPz2p48B0hlINIkE5zxU5i+dGctkoiKjIu6twl0HXWzoy+mvp9bQfLJGx70zYuN6GK0S/x5Kxw==}
+  /tsc@2.0.4:
+    resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
+    hasBin: true
     dev: false
 
   /typescript@5.3.2:
