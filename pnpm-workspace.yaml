@@ -1,0 +1,7 @@
+packages:
+  # packages/ 下所有子包
+  - "packages/*"
+  # components/ 下所有子包、以及子包内的子包
+  - "components/**"
+  # 排除 test 目录
+  - "!**/test/**"

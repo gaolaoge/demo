@@ -1,4 +1,8 @@
 {
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "",
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.3",
     "@babel/preset-env": "^7.23.6",
@@ -6,7 +10,12 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@gaoges/lint-config": "^1.0.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@testing-library/jest-dom": "^6.1.5",
+    "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
@@ -19,8 +28,14 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.0",
     "react": "^18.2.0",
+    "rollup": "^4.9.6",
+    "rollup-plugin-typescript2": "^0.36.0",
     "stylelint": "^16.0.1",
-    "stylelint-config-standard": "^35.0.0"
+    "stylelint-config-standard": "^35.0.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "prepare": "husky install",
@@ -35,5 +50,8 @@
     ],
     "*.css": "stylelint --fix"
   },
-  "pnpm": {}
+  "pnpm": {},
+  "dependencies": {
+    "utils_demo": "workspace:^"
+  }
 }
